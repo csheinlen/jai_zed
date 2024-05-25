@@ -1,6 +1,6 @@
 Quick and dirty Jai lsp/tree-sitter for Zed. Need to have compiled and on your path for this to work.
 
-Replace the line where server.project_root is set with:
+Before compiling Jails replace the line where server.project_root is set with:
 
 ```
 if (body.params.rootPath != null) {
