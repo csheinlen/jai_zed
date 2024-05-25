@@ -9,4 +9,4 @@ if (body.params.rootPath != null) {
 }
 ```
 
-in the handle_request function in Jails's main.jai. Might cause some issues, but it seems to work without that value being set if you have Zed open at the root of your project.
+in the handle_request function in Jails's main.jai. body.params.rootPath ends up being null and causes a crash if you don't put the gaurd here. Might cause some issues, but it seems to work without that value being set if you have Zed open at the root of your project.
