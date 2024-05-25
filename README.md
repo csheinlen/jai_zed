@@ -1,4 +1,4 @@
-Quick and dirty Jai lsp/tree-sitter for Zed. Need to have compiled and on your path for this to work.
+Quick and dirty Jai lsp/tree-sitter for Zed. Need to have Jails compiled and on your path for this to work.
 
 Before compiling Jails replace the line where server.project_root is set with:
 
