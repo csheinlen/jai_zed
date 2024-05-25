@@ -1,0 +1,5 @@
+.DS_Store
+grammars/*
+target/*
+Cargo.lock
+*.wasm

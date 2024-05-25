@@ -1,0 +1,15 @@
+id = "jai"
+name = "Jai"
+version = "0.0.1"
+schema_version = 1
+description = "Jai Language Support"
+authors = ["me <a@a.com>"]
+repository = "https://github.com/blam-o"
+
+[language_servers.jails]
+name = "jails"
+language = "Jai"
+
+[grammars.jai]
+repository = "https://github.com/adragomir/tree-sitter-jai.git"
+commit = "6bc90dc3a86892d6a391739e5d5b346c7e1a7c97"
